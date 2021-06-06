@@ -41,3 +41,43 @@ a{
     outline: none;
     padding-top: 30px;
 }
+/************ form field input*********/
+.field label{
+    position: absolute;
+    bottom: 0px;
+    left: 0%;
+    pointer-events:none;
+    border-bottom: 1px solid #000;
+    width: 100%;
+    height: 100%;
+}
+
+.field label::after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    border-bottom: 1px solid red;
+    transform: translateX(-100%);/*hidden the style*/
+    transition: transform 0.3s ease;
+}
+.name-field{
+    position: absolute;
+    bottom: 5px;
+    left: 0;
+    transition: all 0.3s ease;
+}
+.field input:focus+.label-name .name-field,
+.field input:valid+.label-name .name-field{
+    transform: translateY(-150%);
+    color: red;
+    font-size: .9rem;
+
+}
+.field input:focus+.label-name::after,
+.field input:valid+.label-name::after{
+    transform: translateX(0%);  
+
+}
