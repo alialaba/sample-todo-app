@@ -9,6 +9,13 @@
 body{
      background: #ccc;
 }
+/* container */
+.container{
+    padding: 10px;
+    width: 380px;
+    margin: 0 auto;
+   
+}
 /* header */
 .header{
     width: 380px;
@@ -42,7 +49,7 @@ body{
     bottom: 10px;
     left: 10px;
     font-size: 25px;
-    /* color: #FFF; */
+    color: #FFF;
 }
 /* content */
 .content{
@@ -74,7 +81,7 @@ body{
 }
 .item i.co{
     position: absolute;
-    font-size: 20px;
+    font-size: 18px;
     padding-left:5px;
     left:0px;
     top:10px;
@@ -107,4 +114,30 @@ body{
 .item i.de:hover{
     color:#af0000;
     cursor: pointer;
+}
+/**************add item *************/
+.add-item{
+    position: relative;
+    width: 380px;
+    height:40px;
+    padding: 10px ;
+    position: fixed;
+    top: 75%;
+    /* border-top: 1px solid rgba(0,0,0,0.1); */
+    /* background-color: #FFF; */
+}
+.add-item i{
+    position: absolute;
+    font-size: 30px;
+    color: hsl(152, 100%, 25%);
+}
+.add-item input{
+    position: absolute;
+    height: 35px;
+    width: 310px;
+    left: 45px;
+    padding-left: 10px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #ccc;
 }
