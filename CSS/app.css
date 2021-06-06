@@ -13,7 +13,7 @@ body{
 .header{
     width: 380px;
     height: 200px;
-    background-image: url("../file/daytime.jpg");
+    background-image: url("../img/daytime.jpg");
     background-size: 100% 200%;
     background-repeat: no-repeat;
     border-radius: 15px 15px 0 0;
@@ -37,3 +37,74 @@ body{
     transform: rotate(45deg);
 }
 
+#date{
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    font-size: 25px;
+    /* color: #FFF; */
+}
+/* content */
+.content{
+    width: 380px;
+    height: 350px;
+    max-height: 350px;
+    background: #fff;
+    overflow: auto;
+    border-radius: 4px;
+}
+/* .content ul{
+    margin: 0;
+    padding: 0;
+} */
+.content::-webkit-scrollbar { 
+    display: none; 
+}
+.list{
+    list-style: none;
+}
+.item{
+    width:360px ;
+    height: 45px;
+    max-height: 45px;
+    position: relative;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    margin: 0;
+    padding: 0;
+}
+.item i.co{
+    position: absolute;
+    font-size: 20px;
+    padding-left:5px;
+    left:0px;
+    top:10px;
+}
+.item i.co:hover{
+    cursor: pointer;
+}
+/* .fa-check-circle{
+    color:#6eb200;
+} */
+.item p.text{
+    position: absolute;
+    font-size: 20px;
+    left: 50px;
+    top: 7px;
+    max-width:285px;
+    margin: 0;
+    padding: 0;
+}
+/* .lineThrough{
+    text-decoration: line-through;
+    color : #ccc;
+} */
+.item i.de{
+    position: absolute;
+    font-size: 20px;
+    right: 0px;
+    top: 10px;
+}
+.item i.de:hover{
+    color:#af0000;
+    cursor: pointer;
+}
