@@ -9,3 +9,31 @@
 body{
      background: #ccc;
 }
+/* header */
+.header{
+    width: 380px;
+    height: 200px;
+    background-image: url("../file/daytime.jpg");
+    background-size: 100% 200%;
+    background-repeat: no-repeat;
+    border-radius: 15px 15px 0 0;
+    position: relative;
+}
+.clear-btn{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: 20px;
+    left: 20px;
+}
+.clear-btn i{
+    font-size: 30px;
+    margin-top: 1em;
+    /* color: #FFF; */
+}
+.clear-btn i:hover{
+    cursor: pointer;
+    text-shadow: 1px 3px 5px #000;
+    transform: rotate(45deg);
+}
+
