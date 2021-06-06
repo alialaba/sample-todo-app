@@ -11,3 +11,33 @@ body {
 a{
     text-decoration: none;
 }
+/**************** form field heade **********/
+.field-container{
+    width: 500px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+.field-container .heading{
+    text-align: center;
+    font-size: 1.2rem;
+    margin-top: 3em;
+   
+}
+/************ form field input*************/
+.form{
+    padding: 15px 30px;
+}
+.field{
+    width: 100%;
+    height: 50px;
+    position: relative;
+    overflow: hidden;
+    margin: 20px 0 3px 0;
+}
+.field input{
+    width: 100%;
+    line-height: 1.5;
+    border: none;
+    outline: none;
+    padding-top: 30px;
+}
