@@ -1,33 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TodoList App</title>
-    <!-- custom css -->
-    <link rel="stylesheet" href="../CSS/app.css">
-    <!-- Font awesome -->
-    <script src="https://kit.fontawesome.com/76ab3948f6.js" crossorigin="anonymous"></script>
-
-</head>
+<?php include "inc/head.php" ?>
 
 <body>
     <div class="container">
-        <header class="header">
-
-            <div class="clear-btn">
-
-                <i class="fas fa-sync-alt"></i>
-            </div>
-            <div class="user">
-                <h3>Welcome Back,<br> Aliyu Alaba</h3>
-            </div>
-            <div id="date"></div>
-
-
-        </header>
+        <?php include "inc/header.php" ?>
         <section>
             <div class="content">
                 <ul id="list">

@@ -8,7 +8,7 @@
 
     <!-- /custom css -->
     <link rel="stylesheet" href="./CSS/index.css">
-    <title>Todo App</title>
+    <title>Todo App Login</title>
 
 </head>
 
