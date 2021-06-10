@@ -17,24 +17,24 @@
         <div class="heading">
             <h2>Login</h2>
         </div>
-        <form action="" class="form" id="form">
+        <form action="login.php" method="post" class="form" id="form">
             <div class="field">
                 <!-- <small>error message</small> -->
-                <input type="text" name="" id="username" required />
+                <input type="text" name="username" id="username" required />
                 <label for="name" class="label-name">
                     <span class="name-field">E-Mail</span>
                 </label>
 
             </div>
             <div class="field">
-                <input type="password" name="" id="password" required />
+                <input type="password" name="password" id="password" required />
                 <label for="name" class="label-name">
                     <span class="name-field">Password</span>
                 </label>
 
             </div>
             <div class="field-btn">
-                <button class="btn">Login</button>
+                <button class="btn" name="submit">Login</button>
                 <small>message error</small>
             </div>
 
