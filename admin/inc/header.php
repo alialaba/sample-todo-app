@@ -5,7 +5,7 @@
         <i class="fas fa-sync-alt"></i>
     </div>
     <div class="user">
-        <h3>Welcome Back,<br> Aliyu Alaba</h3>
+        <h3>Welcome Back,<br> <?php echo $_SESSION["username"] ?></h3>
     </div>
     <div id="date"></div>
 

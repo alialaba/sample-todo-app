@@ -22,7 +22,7 @@
                 <!-- <small>error message</small> -->
                 <input type="text" name="username" id="username" required />
                 <label for="name" class="label-name">
-                    <span class="name-field">E-Mail</span>
+                    <span class="name-field">Username</span>
                 </label>
 
             </div>
